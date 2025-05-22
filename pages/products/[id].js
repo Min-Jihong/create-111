@@ -15,7 +15,6 @@ export default function ProductPage({ product }) {
   const router = useRouter();
   const [selectedOptions, setSelectedOptions] = useState({});
   const [quantity, setQuantity] = useState(1);
-  // Add handling for fetching product data using useRouter query or other methods
 
   return (
     <div className="container mx-auto mt-10">
